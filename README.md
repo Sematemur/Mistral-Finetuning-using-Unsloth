@@ -8,7 +8,7 @@ Model linki: https://huggingface.co/sematemur/openai_gsm8k_finetune_mistral7b_
 ![image](https://github.com/user-attachments/assets/e15e2a6e-bdac-4c53-9fc3-484f9c6f3f6f)
 
 ## Finetune bilgileri 
-Projede "unsloth/mistral-7b-instruct-v0.3-bnb-4bit" modeli  "openai/gsm8k" veriseti ile finetune edildi. Bu finetune işlemini 25 epoch olarak yaptım. 
+Projede "unsloth/mistral-7b-instruct-v0.3-bnb-4bit" modeli  "openai/gsm8k" veriseti ile finetune edildi. Bu finetune işlemini 25 epoch olarak yaptım. Unsloth kullanarak finetune işleminin daha hızlı olmasını sağlıyoruz. Burada LoRA ile modelimizi eğittik. LoRA ,tüm modeli yeniden eğitmeden sadece belirli parametreleri eğiterek daha hızlı eğitilmesini sağlar. 
 
 
 
